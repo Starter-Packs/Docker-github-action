@@ -1,0 +1,19 @@
+{
+  "name": "gitgub-actions-sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Starter-Packs/Docker-github-action.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Starter-Packs/Docker-github-action/issues"
+  },
+  "homepage": "https://github.com/Starter-Packs/Docker-github-action#readme"
+}
