@@ -1,9 +1,8 @@
 const axios = require('axios');
 
-axios.post('/test', {
-    firstName: 'Fred',
-    lastName: 'Flintstone'
-  })
+axios.post('http://2f9b5af70e17.ngrok.io/test', 
+    "hello"
+  )
   .then(function (response) {
     console.log(response);
   })
