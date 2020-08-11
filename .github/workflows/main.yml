@@ -7,6 +7,7 @@ jobs:
 #     runs-on: ubuntu-latest
 #     name: checkout
 #     steps:
+
 #       # To use this repository's private action
 #       # you must check out the repository
 #       - name: Checkout
@@ -17,6 +18,8 @@ jobs:
     runs-on: ubuntu-latest
     name: do a post req
     steps:
+      - name: Checkout
+        uses: actions/checkout@v2
       - name: send a post request 
         uses: Starter-Packs/Docker-github-action@master
      
