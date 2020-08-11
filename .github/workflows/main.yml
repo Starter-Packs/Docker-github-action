@@ -18,7 +18,7 @@ jobs:
     name: do a post req
     steps:
       - name: send a post request 
-        uses: ./ # Uses an action in the root directory
+        uses: Starter-Packs/Docker-github-action@master
      
     
  
