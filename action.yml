@@ -1,5 +1,6 @@
 # action.yml
 name: 'post test'
+description: 'testing a post request'
 author:'abhinav'
 
 runs:
