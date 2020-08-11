@@ -3,17 +3,17 @@ name: node test
 on: [push]
 
 jobs:
-  checkout:
-    runs-on: ubuntu-latest
-    name: checkout
-    steps:
-      # To use this repository's private action
-      # you must check out the repository
-      - name: Checkout
-        uses: actions/checkout@v2
+#   checkout:
+#     runs-on: ubuntu-latest
+#     name: checkout
+#     steps:
+#       # To use this repository's private action
+#       # you must check out the repository
+#       - name: Checkout
+#         uses: actions/checkout@v2
   
   postreq:
-    needs: [checkout]
+#     needs: [checkout]
     runs-on: ubuntu-latest
     name: do a post req
     steps:
