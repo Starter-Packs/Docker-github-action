@@ -13,7 +13,7 @@ RUN npm install
 # RUN npm ci --only=production
 
 # Bundle app source
-COPY injex.js ./ 
+COPY index.js ./ 
 
 
 CMD [ "node", "index.js" ]
