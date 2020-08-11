@@ -1,5 +1,7 @@
 # action.yml
 name: 'post test'
+author:'abhinav'
+description:'testing'
 
 runs:
   using: 'docker'
