@@ -3,16 +3,26 @@ name: node test
 on: [push]
 
 jobs:
-  hello_world_job:
+  checkout:
     runs-on: ubuntu-latest
-    name: to make a post req
+    name: checkout
     steps:
       # To use this repository's private action
       # you must check out the repository
       - name: Checkout
         uses: actions/checkout@v2
+  
+  post req:
+    needs: [checkout]
+    runs-on: ubuntu-latest
+    name: do a post req
+    steps:
       - name: send a post request 
         uses: ./ # Uses an action in the root directory
+     
+    
+ 
+    
         
     
  
