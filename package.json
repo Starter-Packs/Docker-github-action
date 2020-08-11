@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Starter-Packs/Docker-github-action/issues"
   },
-  "homepage": "https://github.com/Starter-Packs/Docker-github-action#readme"
+  "homepage": "https://github.com/Starter-Packs/Docker-github-action#readme",
+  "dependencies": {
+    "axios": "^0.19.2"
+  }
 }
