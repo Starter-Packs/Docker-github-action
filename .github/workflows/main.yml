@@ -21,7 +21,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
       - name: send a post request 
-        uses: Starter-Packs/Docker-github-action@master
+        uses: ./
      
     
  
